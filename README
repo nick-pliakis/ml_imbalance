@@ -1,0 +1,16 @@
+Implementation of the Algorithms presented in the paper:
+Addressing Imbalance in Multilabel Classification: Measures and Random Resampling Algorithms
+(Authors: Francisco Chartea, Antonio J. Riverab, María J. del Jesusb, Francisco Herreraa)
+(http://www.sciencedirect.com/science/article/pii/S0925231215004269)
+
+For the course of Advanced Machine Learning and Knowledge Discovery (Aristotelion University of Thessaloniki, MSc Information Systems)
+
+Contributors: Panagiotopoulos Vasilis, Petridis Panagiotis, Pliakis Nick, Skandylas Charilaos
+
+Brief description: Implementation of random over- and under-sampling of imbalanced data, based on the algorithms proposed on the paper. Two main approaches are considered, for each of which two algorithms are implemented, one that performs oversampling on the rare class, and one that performs undersampling on the frequent class.
+The algorithms handle the problems posed by class imbalance by preprocessing the datasets. The code is written in the Java programming language and is an extension of the MULAN machine learning library (http://mulan.sourceforge.net/index.html).
+
+The datasets with which the unit tests were performed, along with the unit testing classes, are also included in .arff format.
+
+Code under the MIT License
+
